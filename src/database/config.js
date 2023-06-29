@@ -6,7 +6,7 @@ const db= new Sequelize({
     username:"postgres",
     password: "6570",
     database:"dbmotos",
-    loggin: false,
+    logging: false,
 
 })
 module.exports={db}
